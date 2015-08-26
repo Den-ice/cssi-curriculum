@@ -22,6 +22,11 @@ collections:
         values:
           layout: post
 
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 # Build settings
 markdown: redcarpet
 markdown_ext: markdown,mkdown,mkdn,mkd,md
