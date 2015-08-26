@@ -6,7 +6,7 @@ description: > # About The Program
   The Computer Science Summer Institute is a three week program for rising college
   freshmen starting a degree in Computer Science or a related field. This site
   houses the curriculum for the three week course.
-baseurl: "/cssi-curriculum/" # the subpath of your site, e.g. /blog/
+baseurl: "/cssi-curriculum" # the subpath of your site, e.g. /blog/
 url: "http://google-cssi.github.io/cssi-curriculum/" # the base hostname & protocol for your site
 permalink: /:title
 
