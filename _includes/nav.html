@@ -7,7 +7,7 @@
     {% for language in languages %}
       {% for landing in site.landings %}
         {% if landing.language == language %}
-          <a href="{{ landing.url }}"><h3>{{ landing.title }}</h3></a>
+          <a href="{{ site.baseurl }}{{ landing.url }}"><h3>{{ landing.title }}</h3></a>
         {% endif %}
       {% endfor %}
     {% endfor %}
